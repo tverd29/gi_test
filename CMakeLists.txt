@@ -58,10 +58,17 @@ endif()
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
      Classes/HelloWorldScene.cpp
+     Classes/GameScene.cpp
+     Classes/MainMenuScene.cpp
+     Classes/MyLayer.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
      Classes/HelloWorldScene.h
+     Classes/GameScene.h
+     Classes/MainMenuScene.h
+     Classes/MyLayer.h
+     Classes/Constants.h
      )
 
 if(ANDROID)
