@@ -115,7 +115,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Git/gi_test/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Git/gi_test/proj.win32/bin/game_insight_test/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -279,7 +280,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Git/gi_test/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Git/gi_test/proj.win32/bin/game_insight_test/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -443,7 +445,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Git/gi_test/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Git/gi_test/proj.win32/bin/game_insight_test/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -606,7 +609,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Git/gi_test/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Git/gi_test/proj.win32/bin/game_insight_test/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -797,10 +801,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\Constants.h" />
+    <ClInclude Include="..\Classes\GameScene.h" />
+    <ClInclude Include="..\Classes\MainMenuScene.h" />
+    <ClInclude Include="..\Classes\MyLayer.h" />
     <ClInclude Include="D:\Git\gi_test\Classes\AppDelegate.h" />
     <ClInclude Include="D:\Git\gi_test\Classes\HelloWorldScene.h" />
     <ClInclude Include="D:\Git\gi_test\proj.win32\main.h" />
     <ClInclude Include="D:\Git\gi_test\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\GameScene.cpp" />
+    <ClCompile Include="..\Classes\MainMenuScene.cpp" />
+    <ClCompile Include="..\Classes\MyLayer.cpp" />
     <ClCompile Include="D:\Git\gi_test\Classes\AppDelegate.cpp" />
     <ClCompile Include="D:\Git\gi_test\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="D:\Git\gi_test\proj.win32\main.cpp" />
