@@ -441,7 +441,6 @@ proj.win32/Release.*/
 # CMake
 *CmakeCache.txt
 *CMakeFiles/
-*cmake/
 *cmake_install.cmake
 *.ser
 *Makefile
