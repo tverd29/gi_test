@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Git\gi_test\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git\gi_test\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git\gi_test\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Git\gi_test\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Git\gi_test\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\GI\Kitchen_bg.png">
+      <Filter>Resources\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\GI\Quests_Avatar_Joshua.png">
+      <Filter>Resources\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\GI\gray_bg.jpg">
+      <Filter>Resources\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\bg\gray_bg.jpg">
+      <Filter>Resources\res\bg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\joshua\smile.png">
+      <Filter>Resources\res\joshua</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\joshua\wow.png">
+      <Filter>Resources\res\joshua</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\location\gate.jpg">
+      <Filter>Resources\res\location</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Git\gi_test\Resources\res\location\hall.png">
+      <Filter>Resources\res\location</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Git\gi_test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Git\gi_test\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{A595EEF1-5598-325E-99C7-2719C551FA86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\GI">
+      <UniqueIdentifier>{B5474736-5E42-3187-B4CF-FF1E747C6089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{52E2B3CD-0446-3682-95DB-B33EB9FC7442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{D0DFD439-07BD-3D05-9C5C-7196F55D2A1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\bg">
+      <UniqueIdentifier>{0FFE017C-AE81-356A-96A3-D6FAD722C3FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\joshua">
+      <UniqueIdentifier>{D9DE2F3D-5649-3DC4-9910-1990350EEE12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\location">
+      <UniqueIdentifier>{11BCD2A4-7F6D-3464-8C35-3FE26FD76B57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A96DFDF9-4BC1-3CBA-AFEB-16E92B3CD415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{8F223553-3C2A-3210-830B-847DC6952B3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{4150FC59-6D67-316C-A626-ACEAE3569EBC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
