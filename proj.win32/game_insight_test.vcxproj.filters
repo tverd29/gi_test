@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="V:\Git\GI_test\game_insight_test\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="V:\Git\GI_test\game_insight_test\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyLayer.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="V:\Git\GI_test\game_insight_test\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="V:\Git\GI_test\game_insight_test\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyLayer.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="V:\Git\GI_test\game_insight_test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="V:\Git\GI_test\game_insight_test\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{E4F4B32E-95D1-3139-9F58-E8B9F7E111C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEFF7EB2-1B88-371A-969F-33E8875DEE0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{41DA537B-598C-321B-97AF-E3D1AB62AD27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{0BDCA14D-9E4C-38FA-BB70-31353A0A6803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\GI">
+      <UniqueIdentifier>{0bbf8dab-4f83-45f5-92fe-b9fe8d70ca30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{00e9d1da-4929-4723-9719-8c4f7f122d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{8240709b-f542-4b90-8612-07cc45e3afcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\bg">
+      <UniqueIdentifier>{e7fe100c-ea34-4d7a-ad50-b32a0098823b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\location">
+      <UniqueIdentifier>{f4334433-5b79-4340-a0da-feed289f0696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\joshua">
+      <UniqueIdentifier>{b9ccf1af-0a81-4a5a-bd78-7a8486f7beaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\Resources\GI\gray_bg.jpg">
+      <Filter>Resources\GI</Filter>
+    </Image>
+    <Image Include="..\Resources\GI\Kitchen_bg.png">
+      <Filter>Resources\GI</Filter>
+    </Image>
+    <Image Include="..\Resources\GI\Quests_Avatar_Joshua.png">
+      <Filter>Resources\GI</Filter>
+    </Image>
+    <Image Include="..\Resources\res\bg\gray_bg.jpg">
+      <Filter>Resources\res\bg</Filter>
+    </Image>
+    <Image Include="..\Resources\res\joshua\wow.png">
+      <Filter>Resources\res\joshua</Filter>
+    </Image>
+    <Image Include="..\Resources\res\joshua\smile.png">
+      <Filter>Resources\res\joshua</Filter>
+    </Image>
+    <Image Include="..\Resources\res\location\hall.png">
+      <Filter>Resources\res\location</Filter>
+    </Image>
+    <Image Include="..\Resources\res\location\gate.jpg">
+      <Filter>Resources\res\location</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

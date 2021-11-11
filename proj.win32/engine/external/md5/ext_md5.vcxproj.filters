@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="V:\Git\GI_test\game_insight_test\cocos2d\external\md5\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="V:\Git\GI_test\game_insight_test\cocos2d\external\md5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEFF7EB2-1B88-371A-969F-33E8875DEE0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+@back gate appearance:"res/location/gate.jpg" order:10 input:false
+@char joshua appearance:"/res/joshua/wow.png" position:50,0 order:5 input:false
+@showPrinter input:false
+Joshua: «Добро пожаловать в Загадочный Дом мистера Икс, мяу!»
+Joshua: «Клянусь своим хвостом, вы тот самый детектив которого пригласил хозяин!»
+@hideChar joshua input:false
+«Да, это я»
+
+@hidePrinter input:true
+
+@char joshua appearance:"/res/joshua/smile.png" input:true
+@showPrinter input:false
+Joshua: «Меня зовут Джошуа, мур-р. Мистер Икс с женой сейчас в отъезде, а мне поручено встретить вас и передать первое задание хозяина».
+@hideChar joshua input:false
+«Будем знакомы!»
+@back hall appearance:"res/location/hall.png" order:11
+@hideBack gate
+@hideChar joshua input:true
+«Мрачно»
